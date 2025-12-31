@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Siroxel_toularynx.Front" size="5.500000 13.191539"/>
+        <ImageTarget name="Siroxel_toularynx.Left" size="5.500000 13.191539"/>
+        <ImageTarget name="Siroxel_toularynx.Right" size="5.500000 13.191539"/>
+        <ImageTarget name="Siroxel_toularynx.Back" size="5.500000 13.191539"/>
+        <ImageTarget name="Siroxel_toularynx.Top" size="5.500000 5.500000"/>
+        <ImageTarget name="Siroxel_toularynx.Bottom" size="5.500000 5.500000"/>
+        <ImageTarget name="Nurofen2.Front" size="5.500000 13.191539"/>
+        <ImageTarget name="Nurofen2.Left" size="5.500000 13.191539"/>
+        <ImageTarget name="Nurofen2.Right" size="5.500000 13.191539"/>
+        <ImageTarget name="Nurofen2.Back" size="5.500000 13.191539"/>
+        <ImageTarget name="Nurofen2.Top" size="5.500000 5.500000"/>
+        <ImageTarget name="Nurofen2.Bottom" size="5.500000 5.500000"/>
+        <MultiTarget name="Siroxel_toularynx">
+            <Part name="Siroxel_toularynx.Left" translation="-2.75 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Siroxel_toularynx.Right" translation="2.75 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Siroxel_toularynx.Front" translation="0 0 2.75" rotation="AD: 1 0 0 0"/>
+            <Part name="Siroxel_toularynx.Back" translation="0 0 -2.75" rotation="AD: 0 1 0 180"/>
+            <Part name="Siroxel_toularynx.Top" translation="0 6.599999904632568 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Siroxel_toularynx.Bottom" translation="0 -6.599999904632568 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Nurofen2">
+            <Part name="Nurofen2.Left" translation="-2.75 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Nurofen2.Right" translation="2.75 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Nurofen2.Front" translation="0 0 2.75" rotation="AD: 1 0 0 0"/>
+            <Part name="Nurofen2.Back" translation="0 0 -2.75" rotation="AD: 0 1 0 180"/>
+            <Part name="Nurofen2.Top" translation="0 6.599999904632568 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Nurofen2.Bottom" translation="0 -6.599999904632568 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
